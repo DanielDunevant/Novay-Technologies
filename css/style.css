@@ -1,0 +1,297 @@
+/* style sheet for "Novay Technologies" © 2017, author: "Daniel J Dunevant , Jesse Primiani" */
+/*Header things*/
+.Header
+{
+	background-color: #131538;
+	clear: none;
+	text-align: center;
+	align-content: center;
+	min-width: 640px;
+	min-height: 100px;
+	width: 100%;
+}
+.Header *
+{
+	text-align: center;
+	padding-left: 12px;
+	margin-left: 12px;
+}
+.Header .Login
+{
+	display: inline;
+	padding: 29px 0px;
+	margin: 12px 0px;
+	clear: none;
+	text-align: center;
+	align-content: center;
+	font-style: italic;
+}
+/*Dropdown menu things*/
+.menuButton
+{
+	padding: 30px 20px 30px 0px;
+	margin-left: 0%;
+	display: inline-block;
+	color: white;
+	align-content: center;
+	text-align: center;
+	border: none;
+	background: none;
+}
+#menu-Content
+{
+	background-color: #1C2052;
+	display: none;
+	width: 100%;
+	clear: both;
+	min-width: 640px;
+	min-height: 80px;
+}
+#menuBtnImg
+{
+	height: 40px;
+	width: 40px;
+	align-content: center;
+}
+.dropbtn
+{
+	background-color: #100440;
+	position: relative;
+	color: #FFFFFF;
+	font: normal normal 700 normal larger / normal sans-serif;
+	width: 140px;
+	padding: 18px;
+	margin: 30px 40px 0px 0px;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.dropdown-content
+{
+	display: none;
+	width: 137px;
+	position: absolute;
+	border: none;
+	border-radius: 10px;
+	background-color: #100440;
+	min-width: 105px;
+}
+.dropdown-content A
+{
+	color: #FFFFFF;
+	padding: 6px;
+	text-decoration: none;
+	font: oblique 100 normal larger sans-serif;
+	display: block;
+}
+.dropdown-content A:hover
+{
+	background-color: #289AC5;
+	border-radius: 10px;
+}
+.dropdown
+{
+	position: relative;
+	height: 0px;
+	width: 150px;
+	padding: 0;
+	margin: 0px;
+	display: inline-block;
+}
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+.dropdown:hover .dropbtn
+{
+	background-color: #289AC5;
+}
+/*Body things*/
+BODY *
+{
+	font-family: inherit;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.3em;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: baseline;
+	text-align: center;
+}
+BODY
+{
+	background-image: url("MusicAppBackground.png");
+}
+#wrapper
+{
+	width: 694px;
+	height: auto;
+	background: url("images/MusicAppBackground.png") 35% 40% / 825px 864px no-repeat scroll border-box padding-box;
+	margin: 5.5em auto 0;
+}
+#background
+{
+	width: 166px;
+	border-style: solid;
+	border-color: #AB1747;
+	height: 795px;
+	margin: 5.5em auto 624px;
+	background: url("images/MusicAppBackground.png") 20% 20% / 825px 864px no-repeat scroll border-box;
+	float: none;
+}
+HTML, BODY
+{
+	height: 100%;
+	width: 100%;
+}
+BODY
+{
+	background-color: #080420;
+	color: #FFFFFF;
+	font-family: arial, helvetica, tahoma, verdana, sans-serif, serif, monospace;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	margin: 0px;
+	overflow: auto;
+}
+H1
+{
+	background-color: inherit;
+	color: inherit;
+	font-size: 44px;
+	font-weight: bold;
+	display: inline;
+	padding: 8px;
+	margin: 8px;
+	clear: none;
+	text-align: center;
+	align-content: center;
+}
+H2
+{
+	background-color: inherit;
+	color: #233C7E;
+	font-size: 35px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 8px;
+	margin: 8px;
+	clear: right;
+	text-align: center;
+}
+.Main
+{
+	background-color: #FFFFFF;
+	text-align: left;
+	min-width: 640px;
+	min-height: :80%;
+	border-radius: 10px;
+	border-style: hidden;
+	border-width: 4px;
+	width: 70%;
+	padding: 10px;
+}
+.Main *
+{
+	margin: 12px;
+}
+A
+{
+	color: #D6D6D6;
+}
+P
+{
+	color: #2E52AD;
+	text-align: left;
+}
+/*Image Things*/
+#logoLarge
+{
+	height: 345px;
+}
+/*Display as X things*/
+.column
+{
+	align-content: center;
+	display: inline-block;
+	margin: 9px;
+	float: top;
+	clear: none;
+	width: 300px;
+}
+/*Form things*/
+.label
+{
+	display: inline-block;
+	color: #2E52AD;
+	clear: left;
+	float: left;
+}
+.input
+{
+	display: inline-block;
+	clear: right;
+	float: right;
+}
+.submit
+{
+	content-align: center;
+	display: inline-block;
+}
+/*Footer things*/
+.footerUpper
+{
+	background-color: #1C2052;
+	display: inline-block;
+	width: 100%;
+	clear: both;
+	margin: auto;
+	min-width: 640px;
+	min-height: 80px;
+	margin-top: 10%;
+}
+.footerLinks
+{
+	font-size: 25px;
+}
+.Copyright
+{
+	font-size: 25px;
+}
+.footerLower
+{
+	background-color: #131538;
+	clear: both;
+	min-width: 640px;
+	min-height: 375px;
+	padding-top: 4px;
+	width: 100%;
+}
+.footerInner *
+{
+	text-align: center;
+	padding-left: 12px;
+	padding: 6px;
+}
+.Footer
+{
+	background-color: #131538;
+	clear: both;
+	text-align: center;
+	min-width: 640px;
+	min-height: 80px;
+	padding-top: 4px;
+	margin-top: 20%;
+	width: 100%;
+}
+.Footer *
+{
+	text-align: center;
+	padding-left: 12px;
+	margin-left: 12px;
+}
+
