@@ -2,7 +2,7 @@
 /*Header things*/
 .Header
 {
-	background-color: #131538;
+	background-color: #696A84;
 	clear: none;
 	text-align: center;
 	align-content: center;
@@ -77,7 +77,7 @@
 	background-color: #100440;
 	min-width: 105px;
 }
-.dropdown-content A
+.dropdown-content a
 {
 	color: #FFFFFF;
 	padding: 6px;
@@ -85,7 +85,7 @@
 	font: oblique 100 normal larger sans-serif;
 	display: block;
 }
-.dropdown-content A:hover
+.dropdown-content a:hover
 {
 	background-color: #289AC5;
 	border-radius: 10px;
@@ -108,7 +108,7 @@
 	background-color: #289AC5;
 }
 /*Body things*/
-BODY *
+body *
 {
 	font-family: inherit;
 	font-size: 100%;
@@ -120,33 +120,11 @@ BODY *
 	vertical-align: baseline;
 	text-align: center;
 }
-BODY
+html, body
 {
-	background-image: url("MusicAppBackground.png");
-}
-#wrapper
-{
-	width: 694px;
-	height: auto;
-	background: url("images/MusicAppBackground.png") 35% 40% / 825px 864px no-repeat scroll border-box padding-box;
-	margin: 5.5em auto 0;
-}
-#background
-{
-	width: 166px;
-	border-style: solid;
-	border-color: #AB1747;
-	height: 795px;
-	margin: 5.5em auto 624px;
-	background: url("images/MusicAppBackground.png") 20% 20% / 825px 864px no-repeat scroll border-box;
-	float: none;
-}
-HTML, BODY
-{
-	height: 100%;
 	width: 100%;
 }
-BODY
+body
 {
 	background-color: #080420;
 	color: #FFFFFF;
@@ -155,10 +133,10 @@ BODY
 	font-style: normal;
 	font-weight: normal;
 	text-align: center;
-	margin: 0px;
 	overflow: auto;
+	margin: auto;
 }
-H1
+h1
 {
 	background-color: inherit;
 	color: inherit;
@@ -171,7 +149,7 @@ H1
 	text-align: center;
 	align-content: center;
 }
-H2
+h2
 {
 	background-color: inherit;
 	color: #233C7E;
@@ -187,23 +165,24 @@ H2
 {
 	background-color: #FFFFFF;
 	text-align: left;
-	min-width: 640px;
-	min-height: :80%;
 	border-radius: 10px;
 	border-style: hidden;
 	border-width: 4px;
-	width: 70%;
+	margin-right: auto;
+	align-content: center;
+	margin-left: auto;
+	width: 100%;
 	padding: 10px;
 }
 .Main *
 {
 	margin: 12px;
 }
-A
+a
 {
 	color: #D6D6D6;
 }
-P
+p
 {
 	color: #2E52AD;
 	text-align: left;
@@ -245,8 +224,9 @@ P
 /*Footer things*/
 .footerUpper
 {
-	background-color: #1C2052;
-	display: inline-block;
+	background-color: #696A84;
+	display: flex;
+	text-align: center;
 	width: 100%;
 	clear: both;
 	margin: auto;
@@ -257,10 +237,21 @@ P
 .footerLinks
 {
 	font-size: 25px;
+	padding: 20px;
+	text-align: center;
+	clear: both;
+	margin: auto;
+	color: #FDFDFD;
 }
 .Copyright
 {
 	font-size: 25px;
+}
+#copyrightTxt
+{
+	clear: both;
+	text-align: center;
+	color: #FFFFFF;
 }
 .footerLower
 {
