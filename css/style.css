@@ -1,14 +1,9 @@
-/* style sheet for "Novay Technologies" © 2017, authors: "Daniel J Dunevant , Jesse Primiani" */
-
-/*Header things*/
 .Header
 {
 	background-color: #696A84;
 	clear: none;
 	text-align: center;
 	align-content: center;
-	min-width: 640px;
-	min-height: 100px;
 	width: 100%;
 }
 .Header *
@@ -156,11 +151,12 @@ h2
 	color: #233C7E;
 	font-size: 35px;
 	font-weight: bold;
+	align-content: normal;
 	display: inline-block;
 	padding: 8px;
 	margin: 8px;
-	clear: right;
-	text-align: center;
+	clear: none;
+	text-align: left;
 }
 .Main
 {
@@ -186,12 +182,49 @@ a
 p
 {
 	color: #2E52AD;
+	font-size: 25px;
 	text-align: left;
+}
+.imageBox
+{
+}
+.txtBox
+{
+	text-align: left;
+	height: auto;
+	border: ;
+	width: 100%;
+}
+.panelImages
+{
+}
+.panel
+{
+	margin: auto;
+	height: auto;
+	align-content: center;
+	clear: both;
+	margin-top: 71px;
+	margin-right: 80px;
+	color: ;
+}
+.panel2
+{
+	margin-top: 30px;
+	align-content: center;
+	height: 400px;
+	height: auto;
+}
+#leftBox
+{
+}
+#rightBox
+{
 }
 /*Image Things*/
 #logoLarge
 {
-	height: 345px;
+	margin: auto;
 }
 /*Display as X things*/
 .column
@@ -231,8 +264,6 @@ p
 	width: 100%;
 	clear: both;
 	margin: auto;
-	min-width: 640px;
-	min-height: 80px;
 	margin-top: 10%;
 }
 .footerLinks
@@ -258,10 +289,9 @@ p
 {
 	background-color: #131538;
 	clear: both;
-	min-width: 640px;
-	min-height: 375px;
 	padding-top: 4px;
 	width: 100%;
+	height: 250px;
 }
 .footerInner *
 {
@@ -286,5 +316,4 @@ p
 	padding-left: 12px;
 	margin-left: 12px;
 }
-
 
