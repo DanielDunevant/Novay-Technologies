@@ -1,3 +1,5 @@
+<!-- php for "Novay Technologies" © 2017, authors: "Daniel J Dunevant , Jesse Primiani" -->
+
 <?php
 /*      $curentPage = $_GET['page'];
       $serverInfo_1 = $_SERVER['REQUEST_URI'];
@@ -11,13 +13,11 @@ if($currentPage =="")
     require "faq.php";
 }*/
 
-
-
 if ($_REQUEST['page'] == "about") require "about.php";
-	elseif ($_REQUEST['page'] == "help") require "help.php";
-	elseif ($_REQUEST['page'] == "faq") require "faq.php";
-	elseif ($_REQUEST['page'] == "contact") require "contact.php";
-	elseif ($_REQUEST['page'] == "home") require "start.php";
-	else require "start.php";
+elseif ($_REQUEST['page'] == "help") require "help.php";
+elseif ($_REQUEST['page'] == "faq") require "faq.php";
+elseif ($_REQUEST['page'] == "contact") require "contact.php";
+elseif ($_REQUEST['page'] == "home") require "start.php";
+else require "start.php";
 
 ?>

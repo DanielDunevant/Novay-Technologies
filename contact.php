@@ -1,16 +1,17 @@
+<!-- php for "Novay Technologies" © 2017, authors: "Daniel J Dunevant , Jesse Primiani" -->
+
 <?php
 
  /*
-
-Author: Daniel J Dunevant
-Program: contact.pgphp
-Date Written: 7/16/17
-Description: COntact Page
-
+	Author: Daniel J. Dunevant
+	Program: contact.php
+	Date Written: 7/16/17
+	Description: Contact Page
 */
 
 $thisScript= $_GET['page'];
 $submit = $_POST['submit'];
+
 // Makes a title on the page
 if (!isset($submit))
 {
@@ -20,29 +21,27 @@ echo <<<FORMDOC
 <h2>Questions? Contact me below!</h2>
 
 <fieldset>
-        <div class = "form row">
-                <div class = "col-xs-12 col-sm-10 col-md-8 col-lg-8 ">
-                <form   action="index.php?page=$thisScript" method="post">
+	<div class = "form row">
+		<div class = "col-xs-12 col-sm-10 col-md-8 col-lg-8 ">
+			<form   action="index.php?page=$thisScript" method="post">
 
+					<label class = "labels" >Your Name:</label>
+					<input name="name" class="input" type="text" id="name"  required><br/><br/><br/>
 
+					<label class = "labels" >Email Address:</label>
+					<input name="email" class="input" type="text" id="email"  required><br/><br/><br/>
 
-                        <label class = "labels" >Your Name:</label>
-                        <input name="name" class="input" type="text" id="name"  required><br/><br/><br/>
+					<label class = "labels">Subject:</label>
+					<input name="subject" class="input" type="text"  id="subject" required/><br /><br/><br/>
 
-                        <label class = "labels" >Email Address:</label>
-                        <input name="email" class="input" type="text" id="email"  required><br/><br/><br/>
+					<label class = "labels" >Message:</label>
+					<textarea  name="message" class="input" id="message" cols="30" rows="10" required></textarea><br/>
 
-                        <label class = "labels">Subject:</label>
-                        <input name="subject" class="input" type="text"  id="subject" required/><br /><br/><br/>
+					<input  class = "input" type="submit" name="submit" value="Submit">
 
-                        <label class = "labels" >Message:</label>
-                        <textarea  name="message" class="input" id="message" cols="30" rows="10" required></textarea><br/>
-
-                        <input  class = "input" type="submit" name="submit" value="Submit">
-
-                        </form>
-                </div>
-        </div>
+			</form>
+		</div>
+	</div>
 </fieldset>
 FORMDOC;
 }
@@ -56,16 +55,17 @@ else
 echo <<<HEREDOC
 
 <div class="body">
-        <div class="contact">
-                <div>
- <div>
-                                <div class = "content">
-                                        <p>Thank you $name for  contacting thank you for contacting us. We will get back with you shortly...</p>
-                                </div>
-                        </div>
-                </div>
-        </div>
 
+		<div class="contact">
+			<div>
+				<div>
+					<div class = "content">
+						<p>Thank you for contacting us. We will get back with you shortly.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 </div>
 
 HEREDOC;
@@ -94,5 +94,3 @@ HEREDOC;
 
 //loads to footer doc
 ?>
-
-
