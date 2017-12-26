@@ -1,23 +1,6 @@
-<!-- php for "Novay Technologies" © 2017, authors: "Daniel J Dunevant , Jesse Primiani" -->
-
 <?php
-/*      $curentPage = $_GET['page'];
-      $serverInfo_1 = $_SERVER['REQUEST_URI'];
-      $serverInfo_2 = $_SERVER['QUERY_STRING'];
-echo "Current Page: $currentPage";
-echo "Request URI: $currentPage";
-echo "QUERY STRING: $currentPage";
-if($currentPage =="")
-{
-    echo "Output";
-    require "faq.php";
-}*/
-
-if ($_REQUEST['page'] == "about") require "about.php";
-elseif ($_REQUEST['page'] == "help") require "help.php";
-elseif ($_REQUEST['page'] == "faq") require "faq.php";
-elseif ($_REQUEST['page'] == "contact") require "contact.php";
-elseif ($_REQUEST['page'] == "home") require "start.php";
-else require "start.php";
+if ($_REQUEST['page'] == "start") require "start1.php";
+	elseif ($_REQUEST['page'] == "contact") require "contact.php";
+	else require "start1.php";
 
 ?>
