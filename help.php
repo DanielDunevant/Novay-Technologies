@@ -1,4 +1,4 @@
-<!-- php for "Novay Technologies" © 2017, authors: "Daniel J Dunevant , Jesse Primiani" -->
+<!-- PHP for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" -->
 
 <?php
 	echo "<h2>Help</h2>";

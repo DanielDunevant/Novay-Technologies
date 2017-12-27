@@ -1,23 +1,26 @@
+<!-- PHP for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" -->
+
 <?php
 $title_text_Array = array("Our Company","Our company is Novay Technologies located in Valparaiso. We notice that
-			 there’s a need for app developers, IT and talented web-designers in the  northwest
+			 there’s a need for app developers, IT consulting services, and talented web-designers in the northwest
 			 Indiana Region. This gives us a competitive edge that allows us to be self sufficient
 			 as a business. The goal of our company is to help businesses in the region prosper
 			 through utilizing our technology, website, and app development services, which will
 			 help them become more efficient and to reach out to new clients.  
 			 In the distant future, we’ll open up new locations to provide IT support to
 			 businesses around the country.",
-                          "Jesse Primiani","So, you want your business to have an online presence. In order to
-                          do that  we can show you many options on how to make that possible: Custom designed
-                          web applications/ sites, Wordpress, Squarespace, and many more options. ",
-                          "Daniel Dunevant","Greetings!  I'm a programmer. I've designed  many sites for 
-			school projects, my self, as well as for a business I worked for. I mostly use  html,
-			 css, php, and  javascript to make my websites. Apart  from my website experience I've
+                          "Jesse Primiani","I am the IT consultant and primary app developer here at Novay Technologies.  
+						  Since I have worked as a tutor in the past, I have quite a bit of experience in understanding 
+						  people and their needs.  I also have a lot of programming, web development, and IT 
+						  experience.  A detailed summary of my expertise can be viewed at <a href='http://www.jesseprimiani.com'>JessePrimiani.com.</a>",
+                          "Daniel Dunevant","Greetings! I'm a programmer. I've designed  many sites for 
+			school projects, myself, as well as for a business I worked for. I mostly use html,
+			 css, php, and  javascript to make my websites. Apart from my website experience I've
 			designed apps for android. Currently I'm going to school for a bachelors degree in 
-			computer science through VU. In the  future I hope to become a computer scientist 
+			computer science through VU. In the future I hope to become a computer scientist 
 			 and through that solve interesting problems.");
 $imageArray = array("NovayLogoVector.svg","JesseProfile.jpeg","DanielProfile.jpg");
-$linkArray = array("http://novaytech-site.appspot.com/index.php?page=about",
+$linkArray = array("http://www.novaytechnologies.com/index.php?page=about",
                    "http://www.jesseprimiani.com",
                    "http://www.danieljohndunevant.info/index.php?page=resume");
 

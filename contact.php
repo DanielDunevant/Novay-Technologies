@@ -1,13 +1,6 @@
+<!-- PHP for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" -->
+
 <?php
-
- /*
-
-Author: Daniel J Dunevant
-Program: contact.pgphp
-Date Written: 7/16/17
-Description: COntact Page
-
-*/
 
 $thisScript= $_GET['page'];
 $submit = $_POST['submit'];
@@ -18,13 +11,12 @@ if (!isset($submit))
 echo <<<FORMDOC
 
 <h2>Questions? Contact us below!</h2>
+<p>or email us at: support@novaytechnologies.com</p>
 
 <fieldset>
         <div class = "form row">
                 <div class = "col-xs-12 col-sm-10 col-md-8 col-lg-8 ">
                 <form   action="index.php?page=$thisScript" method="post">
-
-
 
                         <label class = "labels" >Your Name:</label>
                         <input name="name" class="input" type="text" id="name"  required><br/><br/><br/>
@@ -40,7 +32,7 @@ echo <<<FORMDOC
 
                         <input  class = "input" type="submit" name="submit" value="Submit">
 
-                        </form>
+                </form>
                 </div>
         </div>
 </fieldset>
@@ -58,18 +50,17 @@ echo <<<HEREDOC
 <div class="body">
         <div class="contact">
                 <div>
- <div>
+					<div>
                                 <div class = "content">
-                                        <p>Thank you $name for  contacting thank you for contacting us. We will get back with you shortly...</p>
+                                        <p>Thank you for contacting us. We will get back to you shortly.</p>
                                 </div>
-                        </div>
+                    </div>
                 </div>
         </div>
 
 </div>
 
 HEREDOC;
-
 
   $headers = "MIME-Version: 1.0\r\n";
   $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
