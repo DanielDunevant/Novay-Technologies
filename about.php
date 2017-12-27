@@ -17,7 +17,7 @@ $title_text_Array = array("Our Company","Our company is Novay Technologies locat
 			computer science through VU. In the  future I hope to become a computer scientist 
 			 and through that solve interesting problems.");
 $imageArray = array("NovayLogoVector.svg","JesseProfile.jpeg","DanielProfile.jpg");
-$linkArray = array("http://www.novaytech.com/index.php?page=about",
+$linkArray = array("http://novaytech-site.appspot.com/index.php?page=about",
                    "http://www.jesseprimiani.com",
                    "http://www.danieljohndunevant.info/index.php?page=resume");
 
