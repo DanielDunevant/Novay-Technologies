@@ -11,9 +11,9 @@ $title_text_Array = array("IT Consulting","Often times in a business there comes
 			  one can interact with your business the more profitable your business can be.  " );
 $imageArray = array("ITConsulting.jpeg","WebsiteDesign.jpg","AppDesign.jpeg");
 //In the future these links will go to respective pages with  more  detail about each service
-$linkArray = array("http://www.novaytech.com",
-		   "http://www.novaytech.com",
-		   "http://www.novaytech.com");
+$linkArray = array("http://novaytech-site.appspot.com/index.php?page=start",
+		   "http://novaytech-site.appspot.com/index.php?page=start",
+		   "http://novaytech-site.appspot.com/index.php?page=start");
 
 $numPanels = 3;
 $j = 0;
