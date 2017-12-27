@@ -17,6 +17,8 @@ echo <<<FORMDOC
                 <div class = "col-xs-12 col-sm-10 col-md-8 col-lg-8 ">
                 <form   action="index.php?page=$thisScript" method="post">
 
+						<label class = "labels" >or email us at: support@novaytechnologies.com</label>
+						
                         <label class = "labels" >Your Name:</label>
                         <input name="name" class="input" type="text" id="name"  required><br/><br/><br/>
 
@@ -35,7 +37,6 @@ echo <<<FORMDOC
                 </div>
         </div>
 </fieldset>
-<p>or email us at: support@novaytechnologies.com</p>
 FORMDOC;
 }
 else
