@@ -1,6 +1,7 @@
 
 	<p class ="footerLinks">
 	<a class='footerLinks' href='index.php?page=home'>Home</a> |
+	<a class='footerLinks' href='index.php?page=about'>About</a> |
 	<a class='footerLinks' href='index.php?page=contact'>Contact</a></p>
 </div>
 <div class = "row">

@@ -2,17 +2,18 @@
 $title_text_Array = array("IT Consulting","Often times in a business there comes a time when you need 
 			  some advice. Here one of our services is to provide that advice so that you
 			  can make the best decisions for your business. Whether that be network design
-			  , data storage/recovery, or server setup; We can help with that.",
+			  and server setup; We can help with that.",
                           "Websites","So, you want your business to have an online presence. In order to
 			  do that  we can show you many options on how to make that possible: Custom designed
    			  web applications/ sites, Wordpress, Squarespace, and many more options. ",
                           "Apps","You've got all the good advice you can get and you have a great website. 
 			  What's next? Well we have a theory about business. That is that the more ways that 
 			  one can interact with your business the more profitable your business can be.  " );
-$imageArray = array("NovayLogoVector.svg","NovayLogoVector.svg","NovayLogoVector.svg");
-$linkArray = array("http://www.danieljohndunevant.info/index.php?page=resume",
-                   "http://www.danieljohndunevant.info/index.php?page=resume",
-                   "http://www.danieljohndunevant.info/index.php?page=resume");
+$imageArray = array("ITConsulting.jpeg","WebsiteDesign.jpg","AppDesign.jpeg");
+//In the future these links will go to respective pages with  more  detail about each service
+$linkArray = array("http://www.novaytech.com",
+		   "http://www.novaytech.com",
+		   "http://www.novaytech.com");
 
 $numPanels = 3;
 $j = 0;
