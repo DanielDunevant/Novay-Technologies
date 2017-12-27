@@ -11,7 +11,6 @@ if (!isset($submit))
 echo <<<FORMDOC
 
 <h2>Questions? Contact us below!</h2>
-<p>or email us at: support@novaytechnologies.com</p>
 
 <fieldset>
         <div class = "form row">
@@ -36,6 +35,7 @@ echo <<<FORMDOC
                 </div>
         </div>
 </fieldset>
+<p>or email us at: support@novaytechnologies.com</p>
 FORMDOC;
 }
 else
