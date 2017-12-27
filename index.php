@@ -28,7 +28,6 @@
 		<div class ="row">
 			<div class='footerUpper col-xs-12 col-sm-12 col-md-12 '>
 				<?php require "footer.php"; ?>
-			</div>
 		</div>
 	</body>
 </html>

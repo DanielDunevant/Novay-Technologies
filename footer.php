@@ -1,5 +1,4 @@
 <!-- PHP for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" -->
-<div>
 	<p class ="footerLinks">
 		<a class='footerLinks' href='index.php?page=home'>Home</a> |
 		<a class='footerLinks' href='index.php?page=about'>About</a> |
