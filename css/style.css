@@ -256,7 +256,8 @@ form
 .labels_contact
 {
 	font-size: 1em;
-	margin: 4em;
+	margin-top: 1em;
+	margin-bottom: 4em;
 	clear: both;
 	float: none;
 	text-align: center;
