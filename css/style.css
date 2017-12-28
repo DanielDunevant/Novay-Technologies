@@ -1,5 +1,4 @@
 /* CSS style sheet for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" */
-
 .Header
 {
 	background-color: #696A84;
@@ -24,9 +23,7 @@
 	align-content: center;
 	font-style: italic;
 }
-
 /*Dropdown menu things*/
-
 .menuButton
 {
 	padding: 30px 20px 30px 0px;
@@ -107,9 +104,7 @@
 {
 	background-color: #289AC5;
 }
-
 /*Body things*/
-
 body *
 {
 	font-family: inherit;
@@ -203,6 +198,7 @@ p
 }
 .panelImages
 {
+	width: 50em;
 }
 .panel
 {
@@ -227,16 +223,12 @@ p
 #rightBox
 {
 }
-
 /*Image Things*/
-
 #logoLarge
 {
 	margin: auto;
 }
-
 /*Display as X things*/
-
 .column
 {
 	align-content: center;
@@ -246,9 +238,7 @@ p
 	clear: none;
 	width: 300px;
 }
-
 /*Form things*/
-
 form
 {
 	text-align: right;
@@ -282,9 +272,7 @@ form
 	content-align: center;
 	display: inline-block;
 }
-
 /*Footer things*/
-
 .footerUpper
 {
 	background-color: #696A84;
