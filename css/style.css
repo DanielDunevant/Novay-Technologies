@@ -248,10 +248,11 @@ p
 }
 
 /*Form things*/
+
 .labels_contact
 {
-	font-size: 1em;
-	margin: 1em;
+	font-size: 2em;
+	margin: 4em;
 	clear: both;
 	float: none;
 	text-align: center;
@@ -262,20 +263,23 @@ p
 	color: #2E52AD;
 	clear: left;
 	float: left;
+	text-align: right;
 }
 .input
 {
 	display: inline-block;
 	clear: right;
 	float: right;
+	text-align: left;
 }
 .submit
 {
 	content-align: center;
-	text-align: center;
 	display: inline-block;
 }
+
 /*Footer things*/
+
 .footerUpper
 {
 	background-color: #696A84;
@@ -284,7 +288,7 @@ p
 	width: 100%;
 	clear: both;
 	margin: auto;
-	margin-top: 10%;
+	margin-top: 20%;
 }
 .footerLinks
 {
