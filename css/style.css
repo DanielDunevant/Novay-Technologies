@@ -249,9 +249,13 @@ p
 
 /*Form things*/
 
+form
+{
+	text-align: left;
+}
 .labels_contact
 {
-	font-size: 2em;
+	font-size: 1em;
 	margin: 4em;
 	clear: both;
 	float: none;
@@ -288,7 +292,7 @@ p
 	width: 100%;
 	clear: both;
 	margin: auto;
-	margin-top: 20%;
+	margin-top: 10%;
 }
 .footerLinks
 {
@@ -305,6 +309,7 @@ p
 }
 #contactTxt
 {
+	padding-top: 12px;
 	clear: both;
 	text-align: center;
 	color: #FFFFFF;
