@@ -29,7 +29,7 @@ echo <<<FORMDOC
                         <input name="subject" class="input" type="text"  id="subject" required/><br /><br/><br/>
 
                         <label class = "labels" >Message:</label>
-                        <textarea  name="message" class="input" id="message" cols="60" rows="15" required></textarea><br/>
+                        <textarea  name="message" class="input" id="message" cols="75" rows="15" required></textarea><br/>
 
                         <input  class = "input" type="submit" name="submit" value="Submit">
 

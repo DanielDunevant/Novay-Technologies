@@ -10,7 +10,7 @@
 <div class = "row">
 	<section class = "footerLower">
 		<section class='Copyright'>
-			<p id = "contactTxt">contact us at: support@novaytechnologies.com</p>
+			<p id = "contactTxt">Contact us at: support@novaytechnologies.com</p>
 			<p id = "copyrightTxt">Copyright &copy; 2016 - <?php echo date("Y")?> Novay Technologies</p>
 		</section>
 	</section>
