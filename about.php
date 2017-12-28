@@ -1,14 +1,12 @@
 <!-- PHP for "Novay Technologies" © 2017, authors: "Daniel Dunevant & Jesse Primiani" -->
 
 <?php
-$title_text_Array = array("Our Company","Our company is Novay Technologies located in Valparaiso. We notice that
-			 there’s a need for app developers, IT consulting services, and talented web-designers in the northwest
-			 Indiana Region. This gives us a competitive edge that allows us to be self sufficient
-			 as a business. The goal of our company is to help businesses in the region prosper
-			 through utilizing our technology, website, and app development services, which will
-			 help them become more efficient and to reach out to new clients.  
-			 In the distant future, we’ll open up new locations to provide IT support to
-			 businesses around the country.",
+$title_text_Array = array("Our Company","Our company is Novay Technologies and it is located in Valparaiso. We notice that
+			 there’s a need for app developers, IT consulting services, and talented web-designers in the Northwest
+			 Indiana Region. Therefore, we are to fulfill this need. Here The goal of our company is to help businesses 
+			 in this region prosper through utilizing our technology, website, and app development services, which will
+			 help these businesses become more efficient and have more opportunities reach out to new clients.
+			 In the distant future, we’ll open up new locations to provide IT support to businesses around the country.",
                           "Jesse Primiani","I am the IT consultant and primary app developer here at Novay Technologies.  
 						  Since I have worked as a tutor in the past, I have quite a bit of experience in understanding 
 						  people and their needs.  I also have a lot of programming, web development, and IT 

@@ -12,12 +12,12 @@ echo <<<FORMDOC
 
 <h2>Questions? Contact us below!</h2>
 
+<p class = "labels_contact" >or email us at: support@novaytechnologies.com</p>
+
 <fieldset>
         <div class = "form row">
                 <div class = "col-xs-12 col-sm-10 col-md-8 col-lg-8 ">
                 <form   action="index.php?page=$thisScript" method="post">
-
-						<label class = "labels" >or email us at: support@novaytechnologies.com</label><br/>
 						
                         <label class = "labels" >Your Name:</label>
                         <input name="name" class="input" type="text" id="name"  required><br/><br/><br/>
@@ -29,7 +29,7 @@ echo <<<FORMDOC
                         <input name="subject" class="input" type="text"  id="subject" required/><br /><br/><br/>
 
                         <label class = "labels" >Message:</label>
-                        <textarea  name="message" class="input" id="message" cols="30" rows="10" required></textarea><br/>
+                        <textarea  name="message" class="input" id="message" cols="50" rows="10" required></textarea><br/>
 
                         <input  class = "input" type="submit" name="submit" value="Submit">
 

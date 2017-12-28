@@ -24,7 +24,9 @@
 	align-content: center;
 	font-style: italic;
 }
+
 /*Dropdown menu things*/
+
 .menuButton
 {
 	padding: 30px 20px 30px 0px;
@@ -105,7 +107,9 @@
 {
 	background-color: #289AC5;
 }
+
 /*Body things*/
+
 body *
 {
 	font-family: inherit;
@@ -223,12 +227,16 @@ p
 #rightBox
 {
 }
+
 /*Image Things*/
+
 #logoLarge
 {
 	margin: auto;
 }
+
 /*Display as X things*/
+
 .column
 {
 	align-content: center;
@@ -238,7 +246,16 @@ p
 	clear: none;
 	width: 300px;
 }
+
 /*Form things*/
+.labels_contact
+{
+	font-size: 1em;
+	margin: 1em;
+	clear: both;
+	float: none;
+	text-align: center;
+}
 .label
 {
 	display: inline-block;
@@ -255,6 +272,7 @@ p
 .submit
 {
 	content-align: center;
+	text-align: center;
 	display: inline-block;
 }
 /*Footer things*/
@@ -280,6 +298,12 @@ p
 .Copyright
 {
 	font-size: 25px;
+}
+#contactTxt
+{
+	clear: both;
+	text-align: center;
+	color: #FFFFFF;
 }
 #copyrightTxt
 {
