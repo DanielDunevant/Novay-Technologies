@@ -25,7 +25,7 @@
 }
 #headerOptions
 {
-	height: 6em;
+	height: auto;
 	background: #CED2D7;
 }
 .link-boxes
@@ -37,6 +37,7 @@
 	align-content: center;
 	height: 5em;
 	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 .link-boxes:hover
 {
@@ -57,7 +58,8 @@
 {
 	height: 3.5em;
 	margin: auto;
-	margin-top: 1.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 /*Dropdown menu things*/
 .menuButton

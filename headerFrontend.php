@@ -17,7 +17,7 @@ print "<div id ='headerOptions' class='row'>";
 for($i = 0; $i <$numLinks;$i++)
 {
 	print "	<a class='headerLinks'  href='index.php?page=$linkArray[$i]' >";
-	print "<div class = 'link-boxes col-xs-2 col-md-2 col-sm-2'>";
+	print "<div class = 'link-boxes col-xs-12 col-md-2 col-sm-2'>";
 	print "$textArray[$i]	";
 	print "</div>";
 	print "</a>";
