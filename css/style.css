@@ -23,6 +23,42 @@
 	align-content: center;
 	font-style: italic;
 }
+#headerOptions
+{
+	height: 6em;
+	background: #CED2D7;
+}
+.link-boxes
+{
+	border-style: solid;
+	border-radius: 1em;
+	background-color: #040446;
+	padding: 1.5em;
+	align-content: center;
+	height: 5em;
+	margin-top: 0.5em;
+}
+.link-boxes:hover
+{
+	background-color: #030282;
+}
+.headerLinks
+{
+	color: #FFFFFF;
+	font-size: 1em;
+}
+.headerLinks:hover
+{
+	color: #FFFFFF;
+	height: ;
+	width: ;
+}
+.socialImages
+{
+	height: 3.5em;
+	margin: auto;
+	margin-top: 1.5em;
+}
 /*Dropdown menu things*/
 .menuButton
 {
