@@ -30,7 +30,7 @@ $numSocial = 2;
 for ($i = 0 ;$i <$numSocial ;$i++)
 {
 	print "<div class = 'social-boxes col-xs-1 col-md-1 col-sm-1'>";
-	print "<a class = 'socialLinks' href ='$socialLinkArray[$i]'>";	
+	print "<a class = 'socialLinks' href ='$socialLinkArray[$i]' target = '_blank'>";	
 	print "<img class = 'socialImages' src = 'images/$socialImageArray[$i]'>";	
 	print "</a>";	
 	print "</div>";
