@@ -25,18 +25,16 @@ $linkArray = array("start",
 		   "services",
 		   "contact");
 $textArray = array("Home","About","Services","Contact");
-$numLinks = 4;
+$numLinks =4;
 print "<div id ='headerOptions' class='row'>";
-print "<div id = 'headerOptionsInner' >";
 for($i = 0; $i <$numLinks;$i++)
 {
-	print "	<a class='headerLinks'  href='index.php?page=$linkArray[$i]' >";
+	print "<a class='headerLinks'  href='index.php?page=$linkArray[$i]' >";
 	print "<div class = 'link-boxes col-xs-12 col-md-2 col-sm-2'>";
-	print "$textArray[$i]	";
+	print "$textArray[$i]";
 	print "</div>";
 	print "</a>";
 }
-print "</div>";
 print "</div>";
 
 
