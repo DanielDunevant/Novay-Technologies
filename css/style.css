@@ -209,6 +209,9 @@ h2
 	margin-left: auto;
 	width: 100%;
 	padding: 10px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, 0%);
 }
 .Main *
 {
