@@ -15,8 +15,6 @@ $linkArray = array("start",
 $textArray = array("Home","About","Services","Contact");
 $numLinks =4;
 print "<div id ='headerOptions' class='row'>";
-print "<div class = 'link-boxes col-xs-12 col-md-2 col-sm-2'>";
-print "</div>";
 for($i = 0; $i <$numLinks;$i++)
 {
 	print "<a class='headerLinks'  href='index.php?page=$linkArray[$i]' >";
