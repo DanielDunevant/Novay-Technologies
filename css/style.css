@@ -6,6 +6,7 @@
 	text-align: center;
 	align-content: center;
 	width: 100%;
+	height: ;
 }
 .Header *
 {
@@ -27,11 +28,12 @@
 {
 	height: auto;
 	background: #CED2D7;
+	margin: auto;
 }
 #headerOptionsInner
 {
 	display: inline-block;
-	float:	center;
+	float: center;
 }
 .link-boxes
 {
@@ -58,13 +60,6 @@
 	color: #FFFFFF;
 	height: ;
 	width: ;
-}
-.socialImages
-{
-	height: 3.5em;
-	margin: auto;
-	margin-top: 1.5em;
-	margin-bottom: 0.5em;
 }
 /*Dropdown menu things*/
 .menuButton
@@ -266,6 +261,27 @@ p
 #rightBox
 {
 }
+/*Social Things*/
+#socialBar
+{
+	display: inline-block;
+	margin: 20px auto auto;
+	background: #CED2D7;
+	position: fixed;
+	width: auto;
+	border-radius: 5px;
+}
+.socialImages
+{
+	height: 3.5em;
+	margin: auto;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+.social-boxes
+{
+	margin: 0px 5px 10px;
+}
 /*Image Things*/
 #logoLarge
 {
@@ -329,6 +345,7 @@ form
 	clear: both;
 	margin: auto;
 	margin-top: 10%;
+	z-index: -1;
 }
 .footerLinks
 {
@@ -362,7 +379,7 @@ form
 	clear: both;
 	padding-top: 4px;
 	width: 100%;
-	height: 250px;
+	height: 190px;
 }
 .footerInner *
 {
@@ -376,7 +393,6 @@ form
 	clear: both;
 	text-align: center;
 	min-width: 640px;
-	min-height: 80px;
 	padding-top: 4px;
 	margin-top: 20%;
 	width: 100%;
