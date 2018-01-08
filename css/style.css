@@ -26,9 +26,24 @@
 }
 #headerOptions
 {
+	position:absolute;
+	padding-top:.5em;
+	padding-bottom:.5em;
 	height: auto;
-	background: #CED2D7;
+	background: #625E5A;
 	margin: auto;
+}
+#headerOptions2
+{
+	padding-top:.5em;
+	padding-bottom:.5em;
+	height: auto;
+	background: #F6F1F1;
+	margin: auto;
+}
+#testLogo
+{
+	height:100px;
 }
 #headerOptionsInner
 {
@@ -55,9 +70,20 @@
 	color: #FFFFFF;
 	font-size: 1em;
 }
+.headerLinks2
+{
+	color: #3D3C3C;
+	font-size: 1em;
+}
 .headerLinks:hover
 {
 	color: #FFFFFF;
+	height: ;
+	width: ;
+}
+.headerLinks2:hover
+{
+	color: #3D3C3C;
 	height: ;
 	width: ;
 }
