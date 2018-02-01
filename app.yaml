@@ -9,4 +9,7 @@ handlers:
   static_dir: images
   
 - url: /.*
+  script: lock.php
+  
+- url: /.*
   script: index.php
