@@ -298,7 +298,7 @@ p
 #socialBar
 {
 	display: inline-block;
-	margin: -430px 20px auto;
+	margin: -440px -5px auto;
 	background: #CED2D7;
 	position: fixed;
 	width: auto;
