@@ -8,7 +8,6 @@ handlers:
 - url: /images/*
   static_dir: images
   
-  
 - url: /.*
   script: index.php
 
